@@ -30,4 +30,6 @@ nnoremap <leader><space> :nohlsearch<CR>
 " GO syntax option
 let g:go_highlight_trailing_whitespace_error=0
 let g:go_highlight_space_tab_error=0
+inoremap <C-a> <Home>
+inoremap <C-e> <End>
 
