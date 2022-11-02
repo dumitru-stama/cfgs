@@ -30,7 +30,7 @@ set __fish_git_prompt_showupstream 'yes'
 
 alias mc=mc_chdir
 function mc_chdir
-        command rm /tmp/mc_last_folder
+        command rm -f /tmp/mc_last_folder
         command mc -P /tmp/mc_last_folder
         set d (cat /tmp/mc_last_folder)
         cd $d

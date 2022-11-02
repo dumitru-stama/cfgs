@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt update
-sudo apt install git tig zsh tmux neovim mc htop build-essential python3 python3-pip yasm p7zip p7zip-full gparted fish kitty alacritty -y
+sudo apt install git tig zsh tmux neovim mc htop build-essential python3 python3-pip yasm p7zip p7zip-full gparted fish kitty -y
 sudo apt autoremove -y
 
 echo Setting up MC
