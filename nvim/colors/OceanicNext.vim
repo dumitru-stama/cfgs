@@ -43,6 +43,7 @@
   let s:base0E=['#c594c5', '176']
   let s:base0F=['#ab7967', '137']
   let s:base10=['#ffffff', '15']
+  let s:base11=['#4F4F4F', '15']
   let s:none=['NONE', 'NONE']
 
 " }}}
@@ -119,7 +120,7 @@ call <sid>hi('helpCommand',                s:base0A, '',       '',          '')
 " Standard syntax highlighting
 call <sid>hi('Boolean',                    s:base09, '',       '',          '')
 call <sid>hi('Character',                  s:base08, '',       '',          '')
-call <sid>hi('Comment',                    s:base03, '',       s:italic,    '')
+call <sid>hi('Comment',                    s:base11, '',       s:italic,    '')
 call <sid>hi('Conditional',                s:base0E, '',       '',          '')
 call <sid>hi('Constant',                   s:base09, '',       '',          '')
 call <sid>hi('Define',                     s:base0E, '',       '',          '')
