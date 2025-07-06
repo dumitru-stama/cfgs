@@ -1,0 +1,22 @@
+theme = "kanagawa"
+
+[editor]
+line-number = "relative"
+auto-completion = false
+mouse = false
+true-color = true
+
+[keys.normal]
+"G" = ["goto_last_line"]
+
+[keys.normal.space]
+i = ":toggle-option lsp.display-inlay-hints"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.lsp]
+display-inlay-hints = true
+
