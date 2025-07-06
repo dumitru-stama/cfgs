@@ -1,7 +1,16 @@
 #!/bin/bash
 sudo apt update
-sudo apt install git tig zsh tmux neovim mc htop build-essential python3 python3-pip yasm p7zip p7zip-full gparted fish kitty -y
+sudo apt install curl git tig zsh tmux neovim mc htop build-essential python3 python3-pip yasm p7zip p7zip-full gparted fish kitty -y
 sudo apt autoremove -y
+
+echo Setting up tmp dir
+mkdir ~/tmp
+
+echo Setting up tools dir
+mkdir ~/tools
+
+echo Setting up work dir
+mkdir ~/work
 
 echo Setting up MC
 mkdir ~/.config/mc
@@ -10,6 +19,10 @@ cp -rf mc ~/.config
 echo Setting up NeoVIM
 mkdir ~/.config/nvim
 cp -rf nvim ~/.config
+
+echo Setting up Helix
+mkdir ~/.config/helix
+cp -rf helix ~/.config
 
 echo Setting up fish
 mkdir ~/.config/fish
